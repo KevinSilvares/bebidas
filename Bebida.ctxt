@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Bebida
+comment1.params=nombreDeBebida\ litrosDeBebida
+comment1.target=Bebida(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getNombreBebida()
+comment3.params=
+comment3.target=int\ getLitrosBebida()
+comment4.params=
+comment4.target=boolean\ getBebidaCaliente()
+comment5.params=nombreDeBebida
+comment5.target=void\ setNombreBebida(java.lang.String)
+comment6.params=litrosAnadidos
+comment6.target=void\ anadirBebida(int)
+comment7.params=
+comment7.target=boolean\ tipoBebida()
+numComments=8
