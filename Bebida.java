@@ -39,4 +39,28 @@ public class Bebida {
         }
         return bebidaCaliente;
     }
+    
+    public void estadoBebida(){
+        String estadoBebidaCaliente = "";
+        if (bebidaCaliente == true){
+            estadoBebidaCaliente = "Sí";
+        }
+        else if (bebidaCaliente == false){
+            estadoBebidaCaliente = "No";
+        }
+        System.out.println("Bebida: " + nombreBebida + "| Litros Disponibles: " + litrosBebida + "| ¿Está caliente la bebida? " + estadoBebidaCaliente);
+    }
+    
+    public String getDetalles(){
+        String estadoBebidaCaliente = "";
+        String estadoDeBebida = "";
+        if (bebidaCaliente == true){
+            estadoBebidaCaliente = "Sí";
+        }
+        else if (bebidaCaliente == false){
+            estadoBebidaCaliente = "No";
+        }
+        estadoDeBebida = "Bebida: " + nombreBebida + "| Litros Disponibles: " + litrosBebida + "| ¿Está caliente la bebida? " + estadoBebidaCaliente;
+        return estadoDeBebida;
+    }
 }
