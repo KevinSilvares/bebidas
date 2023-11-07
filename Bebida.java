@@ -30,14 +30,13 @@ public class Bebida {
         litrosBebida = litrosBebida + litrosAnadidos;
     }
     
-    public boolean tipoBebida(){
+    public void tipoBebida(){
         if (bebidaCaliente == true) {
             bebidaCaliente = false;
         }
         else if(bebidaCaliente == false) {
             bebidaCaliente = true;
         }
-        return bebidaCaliente;
     }
     
     public void estadoBebida(){
@@ -45,7 +44,7 @@ public class Bebida {
         if (bebidaCaliente == true){
             estadoBebidaCaliente = "Sí";
         }
-        else if (bebidaCaliente == false){
+        else {
             estadoBebidaCaliente = "No";
         }
         System.out.println("Bebida: " + nombreBebida + "| Litros Disponibles: " + litrosBebida + "| ¿Está caliente la bebida? " + estadoBebidaCaliente);
@@ -57,7 +56,7 @@ public class Bebida {
         if (bebidaCaliente == true){
             estadoBebidaCaliente = "Sí";
         }
-        else if (bebidaCaliente == false){
+        else{
             estadoBebidaCaliente = "No";
         }
         estadoDeBebida = "Bebida: " + nombreBebida + "| Litros Disponibles: " + litrosBebida + "| ¿Está caliente la bebida? " + estadoBebidaCaliente;
